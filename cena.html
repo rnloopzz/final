@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Cena</title>
+    <style>
+        .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+h1.size{
+    font-size:4.6em ; color: #ffffff;
+
+}
+
+h3.size{
+     color: #ffffff;
+}
+.lista{
+    text-align: center;
+}
+.menus{
+    text-align: center;
+}
+.envoltura{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.articulo{
+    width: 45%;
+    height: 200px;
+    
+}
+@media screen and (max-width: 599px){
+    .articulo{
+        width: 95%; 
+        height: 200px; 
+         
+        margin: 2%;
+    }
+}
+@media screen and (min-width: 1000px){
+    .articulo{
+        width: 40%; 
+        height: 200px;
+        
+         margin: 0.5%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Restaurante</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="entradas.html">Entradas</a></li>
+                  <li><a class="dropdown-item" href="desayuno.html">Desayuno</a></li>
+                  <li><a class="dropdown-item" href="comida.html">comida</a></li>
+                  <li><a class="dropdown-item" href="cena.html">Cena</a></li>
+                  <li><a class="dropdown-item" href="postre.html">Postre</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="reservaciones.html">Reservaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calificanos.html">Calificanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <section>
+        <article>
+            <div class="contenedor">
+                <img src="https://thumbs.dreamstime.com/b/bbq-de-ver%C3%A3o-ou-borda-dupla-comida-piquenique-sobre-uma-faixa-escura-fundo-banner-pedra-em-cima-para-baixo-com-espa%C3%A7o-c%C3%B3pia-um-187575401.jpg" class="img-fluid" >
+                <div class="centrado"><h1 class="size"><p class="text-uppercase">Menú</p></h1></div>
+                <div class="centrado"><h3 class="size"><br><br><br><br>Un mundo de sabores a un clic de distancia</h3></div>
+            </div>                            
+        </article>
+        <article>
+            <br><br><h1 class="lista"><b>Lista</b></h1>
+            <h4 class="lista"><p class="text-secondary">Disfruta nuestras producciones</p></h4>
+        </article>
+        <article class="menus"><br><br>
+            <a href="entradas.html"><button type="button" class="btn btn-secondary">Entradas</button></a>
+            <a href="desayuno.html"><button type="button" class="btn btn-secondary">Desayuno</button></a>
+            <a href="comida.html"><button type="button" class="btn btn-secondary">Comida</button></a>
+            <a href="#"><button type="button" class="btn btn-secondary">Cena</button></a>
+            <a href="postre.html"><button type="button" class="btn btn-secondary">Postre</button></a>
+        </article>
+        <article>
+            <div class="envoltura">
+                <div class="articulo">
+                    <table>
+                    <tr>
+                        <td>
+                            <img src="https://www.recetassalvador.com/base/stock/Recipe/42-image/42-image_web.jpg" width="150" height="100">
+                        </td>
+                        <td><h4 style="padding-left:10%;">Empanadas..................$3.00</h4>
+                            <p style="padding-left:10%;">Empanadas + bebida caliente </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+                <div class="articulo">
+                     <table>
+                    <tr>
+                        <td>
+                            <img src="https://assets.unileversolutions.com/recipes-v2/218407.jpg" width="150" height="100">
+                        </td>
+                        <td><h4 style="padding-left:10%;">Burritos..................$5.00</h4>
+                            <p style="padding-left:10%;">burritos + cualquier bebida </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+                <div class="articulo"><table>
+                    <tr>
+                        <td>
+                            <img src="https://images.aws.nestle.recipes/original/b945a4d29f9481669841684f6880c40e_tacos.png" width="150" height="100">
+                        </td>
+                        <td><h4 style="padding-left:10%;">Tacos..................$5.00</h4>
+                            <p style="padding-left:10%;">3 tacos + bebida fria </p>
+                        </td>
+                    </tr>
+                </table></div>
+                <div class="articulo">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="https://growingupbilingual.com/wp-content/uploads/2021/09/shutterstock_2004585704.jpg" width="150" height="100">
+                            </td>
+                            <td><h4 style="padding-left:10%;">Tamales..................$2.00</h4>
+                                <p style="padding-left:10%;">2 tamales + bebida caliente</p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <div class="articulo">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="https://qph.fs.quoracdn.net/main-qimg-4188f062dcbe91def2f4ba3e491d32c4-lq" width="150" height="100">
+                            </td>
+                            <td><h4 style="padding-left:10%;">Torta..................$3.50</h4>
+                                <p style="padding-left:10%;">Torta Mexicana + soda </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="articulo">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="https://i.pinimg.com/736x/7a/ea/87/7aea87d825c94d51cbe1b394a8d9a963.jpg" width="150" height="100">
+                            </td>
+                            <td><h4 style="padding-left:10%;">Pollo_rostizado..................$25.00</h4>
+                                <p style="padding-left:10%;">Para 4+ pichel de bebida + tortillas + acompañamientos </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+      </section>
+</body>
+</html>
